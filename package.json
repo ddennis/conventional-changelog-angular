@@ -1,7 +1,7 @@
 {
-  "name": "conventional-changelog-angular",
+  "name": "conventional-changelog-ddennis",
   "version": "1.3.0",
-  "description": "conventional-changelog angular preset",
+  "description": "conventional-changelog ddennis preset",
   "main": "index.js",
   "scripts": {
     "coverage": "istanbul cover -x test.js _mocha -- -R spec --timeout 30000 && rm -rf ./coverage",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conventional-changelog/conventional-changelog-angular.git"
+    "url": "git+https://github.com/ddennis/conventional-changelog-ddennis.git"
   },
   "keywords": [
     "conventional-changelog",
