@@ -1,6 +1,8 @@
 #a simple fork of conventional-changelog/conventional-changelog-angular
 
-Added Design and animation as my own types: [see changes here](https://github.com/ddennis/conventional-changelog-ddennis/commit/3a9dacf6474cf3315874774f85260c4052386bfd)  
+This was done since for a project where not just code changes should be visible in the changelog.
+
+I added Design, Animation and Text as my own types: [see changes here](https://github.com/ddennis/conventional-changelog-ddennis/commit/fa2796a1f4b0e237262b106566d11c959ba8274e)  
 
 #Usage
     npm i https://github.com/ddennis/conventional-changelog-ddennis --save-dev
