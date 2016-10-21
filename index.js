@@ -53,6 +53,8 @@ var writerOpts = {
       commit.type = 'Bug Fixes';
     } else if (commit.type === 'design') {
       commit.type = 'Design';
+    } else if (commit.type === 'text') {
+      commit.type = 'Text';
     } else if (commit.type === 'ani' || commit.type === 'animation') {
       commit.type = 'Animation';
     } else if (commit.type === 'perf') {
