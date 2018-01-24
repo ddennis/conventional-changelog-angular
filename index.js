@@ -49,7 +49,11 @@ var writerOpts = {
 
     if (commit.type === 'feat') {
       commit.type = 'Features';
-    } else if (commit.type === 'fix') {
+    } 
+    else if (commit.type === 'feature') {
+      commit.type = 'Features';
+    }    
+    else if (commit.type === 'fix') {
       commit.type = 'Bug Fixes';
     } else if (commit.type === 'design') {
       commit.type = 'Design';
